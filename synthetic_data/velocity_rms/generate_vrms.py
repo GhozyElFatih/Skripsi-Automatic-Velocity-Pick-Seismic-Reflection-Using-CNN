@@ -22,31 +22,8 @@ sp = np.vstack((matrix_zero,((traces**2)*Time),matrix_zero))
 sp2 = np.vstack((matrix_zero,Time,matrix_zero))
 
 sm = np.zeros((nt,nx))
-# Algoritma 1
-#for j in range(nx):
-#    for i in range(nt):
-#        sm[i,j] = np.mean(sp[np.arange(0,window,1)+i,j])
-
-# Algoritma 2 (lebih cepat)
 for i in range(nt):
     sm[i,:] = np.sqrt(np.sum(sp[np.arange(0,window,1)+i,:],axis=0)/np.sum(sp2[np.arange(0,window,1)+i,:],axis=0))
-
-#plt.figure(1)
-#plt.subplot(121)
-#plt.imshow(traces,aspect='auto',interpolation='bilinear',cmap='seismic')
-#plt.colorbar()
-#plt.subplot(122)
-#plt.imshow(sm,aspect='auto',interpolation='bilinear',cmap='seismic')
-#plt.colorbar()
-#
-#plt.figure(2)
-#plt.plot(sm[:,0],np.linspace(0,4000,80),label='0')
-#plt.plot(sm[:,40],np.linspace(0,4000,80),label='40')
-#plt.plot(sm[:,80],np.linspace(0,4000,80),label='80')
-#plt.plot(sm[:,120],np.linspace(0,4000,80),label='120')
-#plt.plot(sm[:,190],np.linspace(0,4000,80),label='190')
-#plt.gca().invert_yaxis()
-#plt.legend()
 
 import csv 
   
@@ -55,7 +32,7 @@ with open('RMS_{}_{}x{}_{}.csv'.format(model,len(sm),len(np.transpose(sm)),perco
     write.writerows(sm)
 
 fig = plt.figure(figsize=(15,7))
-plt.imshow(sm,aspect='auto',extent=[0,10000,4000,0],interpolation='bilinear',cmap='jet')
+plt.imshow(sm,aspect='auto',extent=[0,5000,3,0],interpolation='bilinear',cmap='jet')
 plt.suptitle('RMS | Model {} | Ukuran = {}x{} | Percobaan = {}'.format(model,len(sm),len(sm.T),percobaan),size=20)
 plt.xlabel('Offset (m)')
 plt.ylabel('Kedalaman (m)')
