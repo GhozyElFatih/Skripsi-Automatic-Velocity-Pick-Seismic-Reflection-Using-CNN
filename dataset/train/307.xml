@@ -1,0 +1,50 @@
+<annotation>
+	<folder>gambar siap label</folder>
+	<filename>307.png</filename>
+	<path>F:\ghozy\gambar siap label-20210517T140800Z-001\gambar siap label\307.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>500</width>
+		<height>500</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>semblance</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>41</xmin>
+			<ymin>154</ymin>
+			<xmax>98</xmax>
+			<ymax>176</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>semblance</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>46</xmin>
+			<ymin>226</ymin>
+			<xmax>164</xmax>
+			<ymax>265</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>semblance</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>115</xmin>
+			<ymin>306</ymin>
+			<xmax>194</xmax>
+			<ymax>347</ymax>
+		</bndbox>
+	</object>
+</annotation>
