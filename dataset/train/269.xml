@@ -1,0 +1,50 @@
+<annotation>
+	<folder>train and label</folder>
+	<filename>269.png</filename>
+	<path>C:\Users\Acer\OneDrive - UNIVERSITAS INDONESIA\Documents\Kuliah\Crispy\train and label\269.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>500</width>
+		<height>500</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>semblance</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>158</xmin>
+			<ymin>169</ymin>
+			<xmax>309</xmax>
+			<ymax>197</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>semblance</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>264</xmin>
+			<ymin>197</ymin>
+			<xmax>340</xmax>
+			<ymax>232</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>semblance</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>283</xmin>
+			<ymin>222</ymin>
+			<xmax>416</xmax>
+			<ymax>249</ymax>
+		</bndbox>
+	</object>
+</annotation>
