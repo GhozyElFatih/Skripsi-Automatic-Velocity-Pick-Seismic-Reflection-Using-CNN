@@ -1,8 +1,11 @@
 # Skripsi - Automatic Velocity Pick Seismic Reflection Using CNN
 This repository serves as an attachment to my bachelor thesis.
-Main idea is to detect peak of semblance from image and extract the center of coordinate.
+Main idea is to detect peak of semblance from image and extract the center of coordinates.
 
 ![gambar001](https://user-images.githubusercontent.com/85453675/124712513-987e4f80-df29-11eb-95ef-a26ba66b9bcf.png)
+
+Next, the center of coordinates from semblance target will be normalized to x scale as velocity (range 1500 to 4000 m/s) and y scale as two-way-traveltime (range 0 to 3 s).
+Then, another semblance from each CDP are treated same. Velocity we got from each semblance will be stored and used for NMO correction, stacking, and migration to seismic data.
 
 The training is conducted by using the TensorFlow Object Detection API. The repository for the module can be downloaded via the following page.
 
