@@ -42,7 +42,8 @@ For software and modules version, I used:
 - LabelImg 1.8.5
 
 Any question or discussion for this research, you can hit me up through my email fatih.el.ghozy@gmail.com. For academic usage of this repository, kindly please citate my thesis.
-- Fatih, Ghozy El. (2021). _Pemilihan Kecepatan Otomatis Seismik Refleksi Menggunakan Convolutional Neural Network_. Skripsi. Depok: Universitas Indonesia. (Bahasa)
+- Fatih, Ghozy El. (2021). _Pemilihan Kecepatan Otomatis Seismik Refleksi Menggunakan Convolutional Neural Network_. Skripsi. Depok: Universitas Indonesia. \
+(Bahasa Indonesia)
 
 In english or other language and other format, just simply replace 'Skripsi' to language used, and make sure every citation information are there.
 
