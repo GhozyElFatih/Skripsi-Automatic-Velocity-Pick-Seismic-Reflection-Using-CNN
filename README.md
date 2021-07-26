@@ -7,6 +7,8 @@ Main idea is to detect peak of semblance from image and extract the center of co
 Next, the center of coordinates from semblance target will be normalized to x scale as velocity (range 1500 to 4000 m/s) and y scale as two-way-traveltime (range 0 to 3 s).
 Then, another semblance from each CDP are treated same. Velocity we got from each semblance will be stored and used for NMO correction, stacking, and migration to seismic data.
 
+![semb](https://user-images.githubusercontent.com/85453675/126952002-0ed8262c-d48b-44cc-8fef-fe43e52ad996.png)
+
 The training is conducted by using the TensorFlow Object Detection API. The repository for the module can be downloaded via the following page.
 
 https://github.com/tensorflow/models
